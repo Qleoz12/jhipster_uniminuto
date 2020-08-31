@@ -1,4 +1,19 @@
 # sistemasTrnasaccionales
+## instalall requires
+
+- JAVA11
+- npm 
+- yarn 
+- maven
+- SQl Server
+
+## get up 
+
+in the main folder run this comands, check you have a conection with a database
+
+    npm install
+    maven clean install 
+
 
 This application was generated using JHipster 6.4.1, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v6.4.1](https://www.jhipster.tech/documentation-archive/v6.4.1).
 
