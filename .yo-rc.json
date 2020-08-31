@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "co.sistemas.transaccionales.uniminuto",
+      "nativeLanguage": "es"
+    },
+    "jhipsterVersion": "6.4.1",
+    "applicationType": "microservice",
+    "baseName": "sistemasTrnasaccionales",
+    "packageName": "co.sistemas.transaccionales.uniminuto",
+    "packageFolder": "co/sistemas/transaccionales/uniminuto",
+    "serverPort": "9099",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mssql",
+    "prodDatabaseType": "mssql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "YjhiMjhmNjE4MDZhZTFiYTFkYzA1MDU4Y2NjYjAxYzFiYWQ0MTU5MDdhYzlmYTc3ZGE1ZDQxZDhkODU1MTY0MTkzZDgxYzUwZTA3YWVlOTI0MmM2NDNlZmNhMWM1MTQ4YWUwYzdiOTcwMWM5MGI2MGM4MTM0OWZmOTEzMTI3NTM=",
+    "embeddableLaunchScript": false,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "es",
+    "languages": [
+      "es",
+      "en"
+    ],
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}

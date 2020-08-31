@@ -1,0 +1,14 @@
+version: '2'
+services:
+  sistemastrnasaccionales-app:
+    image: sistemastrnasaccionales
+    environment:
+      - _JAVA_OPTIONS=-Xmx512m -Xms256m
+      - SPRING_PROFILES_ACTIVE=prod,swagger
+      - MANAGEMENT_METRICS_EXPORT_PROMETHEUS_ENABLED=true
+      - SPRING_DATASOURCE_URL=jdbc:sqlserver://sistemastrnasaccionales-mssql:1433;database=sistemasTrnasaccionales
+      - JHIPSTER_SLEEP=30 # gives time for other services to boot before the application
+  sistemastrnasaccionales-mssql:
+    extends:
+      file: mssql.yml
+      service: sistemastrnasaccionales-mssql
